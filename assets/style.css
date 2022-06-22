@@ -1,0 +1,120 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+
+header, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#homeSection{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 5.5rem;
+    height: 5.5rem;
+    padding: 1rem;  
+    border-radius: 50%;
+}
+
+.text-bold {
+    font-style: bold;
+}
+
+.text-light-blue {
+    color: #1E90FF;
+}
+
+
+/* sm = Social Media */
+/* Icon Style for sm */
+/* SM section */
+.sm {
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1.5rem;
+    width: 50rem;
+    font-size: 15px;
+    margin-bottom: 5rem;
+}
+
+.sm :hover {
+    cursor: pointer;
+}
+
+.smIcon {
+    width: 100%;
+    max-width: 2rem;
+    height: 100%;
+    max-height: 2rem;
+    margin: 0 auto;
+}
+
+#smIg{
+    margin: 0 auto;
+}
+
+#smIg:hover {
+    opacity: 0.5;
+    border-radius: 200%;
+    box-shadow: 0 0 24px 0 #dd4b39;
+    transform: translateY(-10px);
+}
+
+#smTweet {
+    margin: 0 auto;
+}
+
+#smTweet:hover {
+    opacity: 0.5;
+    border-radius: 200%;
+    box-shadow: 0 0 24px 0 #057fac;
+    transform: translateY(-10px);
+
+}
+
+#smLinkD {
+    margin: 0 auto;
+}
+
+#smLinkD:hover {
+    opacity: 0.5;
+    border-radius: 200%;
+    box-shadow: 0 0 24px 0 #002d3d;
+    transform: translateY(-10px);
+}
+
+/* End SM section */
+
+#aboutMeSec{
+    text-align: center;
+    margin-left: 20rem;
+}
+
+#projectSec {
+    text-align: center;
+    margin-left: 35rem;
+    margin-bottom: 10rem;
+}
+
+#projects{
+    margin-bottom: 4rem;
+    margin-left: 11rem;
+}
+
+.inkFree{
+    font-family: Ink Free;
+}
+
+.skillsImg {
+    height: 35px;
+    width: 35px;
+}
+
